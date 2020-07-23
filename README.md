@@ -4,11 +4,11 @@ The app expect to have a env variable `REACT_APP_API_URL` with the full path to 
 
 ### Example
 
-[https://jsonplaceholder.typicode.com]
+https://jsonplaceholder.typicode.com
 
 ## Demo Example
 
-[https://nostalgic-bell-40790a.netlify.app](Live Example)
+[Live Demo](https://nostalgic-bell-40790a.netlify.app)
 
 ## Available Scripts
 
