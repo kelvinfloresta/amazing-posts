@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { withChildAsFunction } from "components/withChildAsFunction";
+import { phone, smallDesktop } from "device";
 
 export const ListPostContainer = styled.div`
   display: flex;
@@ -14,11 +15,11 @@ export const StyledListPost = withChildAsFunction(styled.div`
   grid-row-gap: 4rem;
   grid-template-columns: repeat(3, max-content);
 
-  @media (max-width: 1024px) {
+  @media (max-width: ${smallDesktop}) {
     grid-template-columns: repeat(2, max-content);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${phone}) {
     grid-template-columns: 1fr;
   }
 `);
