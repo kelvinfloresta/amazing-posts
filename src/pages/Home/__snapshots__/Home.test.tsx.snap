@@ -8,10 +8,24 @@ Array [
     The amazing posts
   </h1>,
   <div
-    className="sc-AxirZ VxIXc"
+    className="sc-fzoLsD haoCQg"
+  >
+    <label>
+      Search for User using ID
+    </label>
+    <input
+      className="sc-fzpans jFhoPn"
+      inputMode="numeric"
+      onChange={[Function]}
+      placeholder="Ex: 1"
+      type="number"
+    />
+  </div>,
+  <div
+    className="sc-AxjAm gMyFWH"
   >
     <div
-      className="sc-AxjAm kJFOpn"
+      className="sc-AxirZ dVvgfn"
     >
       <div
         className="sc-AxiKw hcqcwH"
