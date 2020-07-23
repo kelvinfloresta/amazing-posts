@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewPost should render body with ellipsed text 1`] = `
+<div
+  className="sc-AxjAm clPXtE"
+  height="200px"
+  onClick={[Function]}
+>
+  <h4
+    className="sc-AxirZ cntdGL"
+    title="Title"
+  >
+    Title
+  </h4>
+  <p
+    className="sc-AxiKw hQAPTQ"
+  >
+    Really long text, Really long text, Really long text, Really long text, Really long text, Really long text, Really long text, Really long text, Really...
+  </p>
+</div>
+`;
+
+exports[`ViewPost should render loading correctly 1`] = `
+<div
+  className="sc-AxjAm jUiYuM"
+  height="200px"
+>
+  <span>
+    <span
+      className="react-loading-skeleton sc-AxhCb jBa-DGO css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+  </span>
+  <span>
+    <span
+      className="react-loading-skeleton sc-AxhUy jQJchb css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <span
+      className="react-loading-skeleton sc-AxhUy jQJchb css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <span
+      className="react-loading-skeleton sc-AxhUy jQJchb css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <span
+      className="react-loading-skeleton sc-AxhUy jQJchb css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <span
+      className="react-loading-skeleton sc-AxhUy jQJchb css-1vmnjpn-skeletonStyles-Skeleton"
+      style={Object {}}
+    >
+      ‌
+    </span>
+  </span>
+</div>
+`;
+
+exports[`ViewPost should render post correctly 1`] = `
+<div
+  className="sc-AxjAm clPXtE"
+  height="200px"
+  onClick={[Function]}
+>
+  <h4
+    className="sc-AxirZ cntdGL"
+    title="Title"
+  >
+    Title
+  </h4>
+  <p
+    className="sc-AxiKw hQAPTQ"
+  >
+    Body
+  </p>
+</div>
+`;
