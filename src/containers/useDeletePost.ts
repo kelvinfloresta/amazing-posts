@@ -8,7 +8,7 @@ export default function useDeletePost() {
   function fetch(postId: number, onSuccess: () => void) {
     setIsLoading(true);
     setError(null);
-    return deletePost(postId).subscribe(beforeSuccess(onSuccess), setError);
+    return deletePost(postId).subscribe(beforeSuccess(onSuccess), onFail);
   }
 
   function beforeSuccess(onSuccess: () => void) {
@@ -16,6 +16,11 @@ export default function useDeletePost() {
       setIsLoading(false);
       onSuccess();
     };
+  }
+
+  function onFail(error: unknown) {
+    setIsLoading(false);
+    setError(error);
   }
 
   return {
